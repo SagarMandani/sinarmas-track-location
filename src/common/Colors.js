@@ -1,0 +1,18 @@
+const Colors = {
+  BLACK: '#1C1E21',
+  WHITE: '#FFFFFF',
+  TEXT_BLACK: '#2A3037',
+  APP_BACKGROUND: '#FFFFFF',
+  BLUE_LIHGT: '#667FF6',
+  BLUE_DARK: '#4361EE',
+  LIGHT_GREY: '#F5F6FA',
+  GREEN: '#23BF20',
+  RED: '#ED1D24',
+  BLUE: '#007AFF',
+  ORANGE: '#FFA31A',
+  DARK_GREY: '#E1E2EA',
+  DARK_GREY_: '#7D8B99',
+  //   APP_BACKGROUND: '#E5E5E5',
+};
+
+export default Colors;
