@@ -12,19 +12,57 @@
     <img src="screenshot/device-2022-03-14-120001.png" alt="Screenshot" height="400px width="300px"</img>                                                                                       
 </div>
      
-<hr />                                                                                                
-Running the project
-<hr /> 
-Assuming you have all the requirements installed, you can setup and run the project:
+<h3>Installation and Usage</h3>
+<hr />
 
-Below following steps for your platform
-* yarn install 
-* yarn start
+**Step 1:**
 
-Run on Android device/emulator or i to run on iOS simulator
+Download or clone this repo by using the below link:
 
-Android
-- npx react-native run-android
+```
+git clone https://github.com/SagarMandani/sinarmas-track-location.git
+```
 
-IOS
-- npx react-native run-ios
+**Step 2:**
+
+Go to project root folder
+
+```
+cd sinarmas-track-location
+```
+
+**Step 3:**
+
+Execute the following command in console to get the required dependencies:
+
+```
+npm or yarn install
+```
+
+**Step 4:**
+
+Make sure you have an ios Simulator or Android Emulator running or have an ios device with you:
+
+```
+npm or yarn start
+```
+
+* Android
+
+yarn android to run the Android application (remember to start a simulator or connect an Android phone)
+
+```
+npx react-native run-android
+```
+
+* IOS
+
+```
+cd ios -> pod install to install pod dependencies -> cd ..
+```
+
+yarn ios to run the iOS application (remember to start a simulator or connect an iPhone phone)
+
+```
+npx react-native run-ios
+```
